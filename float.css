@@ -15,7 +15,7 @@ body {
 
   min-width: 1vw;
   margin: 0 auto;
-  background-color: #e2e0f1;
+  background-color: #fff3d6;
   height: 100%;
 }
 
@@ -62,25 +62,25 @@ a:active {
 }
 
 header {
-  background: #b8b2dd;
+  background: #151118;
   position: sticky;
   top: 0;
   width: 100%
 }
 
 main {
-  background: #7e74c2;
-  color: white;
+  background: #fff9eb;
+  color: black;
 }
 
 nav {
-  background: #534d7a;
+  background: #cc8828;
   height: 100%;
 
 }
 
 aside {
-  background: hsl(279, 39%, 40%);
+  background: #cc3000;
   color: white;
   height: 100%;
 }
@@ -93,7 +93,7 @@ aside p {
 }
 
 footer {
-  background: #483d8b;
+  background: #151118;
   left: 0;
   bottom: 0;
   width: 100%;
