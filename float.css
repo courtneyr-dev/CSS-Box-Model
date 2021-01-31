@@ -1,0 +1,134 @@
+/* border-box fix */
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+
+  min-width: 1vw;
+  margin: 0 auto;
+  background-color: #e2e0f1;
+  height: 100%;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+img {
+  float: right;
+  padding: 1rem;
+  width: 50%
+}
+
+/* unvisited link */
+a:link {
+  color: #e2e0f1;
+}
+
+/* visited link */
+a:visited {
+  color: #f1f0f8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c6c134;
+}
+
+/* selected link */
+a:active {
+  color: #8c3e72;
+}
+
+
+/* Add padding to all of the .container child elements */
+.container>* {
+  padding: 20px;
+}
+
+.container {
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+}
+
+header {
+  background: #b8b2dd;
+  position: sticky;
+  top: 0;
+  width: 100%
+}
+
+main {
+  background: #7e74c2;
+  color: white;
+}
+
+nav {
+  background: #534d7a;
+  height: 100%;
+
+}
+
+aside {
+  background: hsl(279, 39%, 40%);
+  color: white;
+  height: 100%;
+}
+
+aside p {
+  text-align: center;
+  padding: 1rem;
+  border: palegoldenrod ridge 1rem;
+  margin: 3rem;
+}
+
+footer {
+  background: #483d8b;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: palegoldenrod;
+  text-align: center;
+  clear: both;
+  position: sticky;
+}
+
+@media (min-width: 600px) {
+  nav {
+    width: 25%;
+    float: left;
+  }
+
+  main {
+    width: 75%;
+    float: left;
+  }
+
+  aside {
+    clear: both;
+  }
+}
+
+@media (min-width: 850px) {
+  main {
+    width: 50%;
+  }
+
+  aside {
+    width: 25%;
+    clear: none;
+    float: right;
+  }
+
+  footer {}
+}
